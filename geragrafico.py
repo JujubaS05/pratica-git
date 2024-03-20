@@ -13,7 +13,9 @@ def main():
     
     plt.title('Gráfico de linhas')
 
-    plt.plot(listavalores)
+    for serie in listavalores:
+       plt.plot(serie)
+
     plt.show()
 
 main()
